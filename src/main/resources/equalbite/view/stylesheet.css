@@ -1,0 +1,365 @@
+.headerText {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: Black;
+    -fx-opacity: 1;
+}
+
+.backgroundColor {
+    -fx-background-color: #f9f5eb;
+}
+
+.headerTitle{
+    -fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI";
+    -fx-fill: #065935;
+    -fx-opacity: 1;
+    -fx-font-weight: bold;
+}
+
+.barChart .chart-bar {
+    -fx-bar-fill: #1a73e8;
+}
+
+.dashboardValue{
+    -fx-font-size: 30pt;
+    -fx-font-family: "Kristen ITC";
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#dashboardBackground{
+    -fx-background-image: url("../images/DashboardPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+.aboutHeader{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-fill: White;
+    -fx-font-weight: bold;
+}
+
+.aboutText{
+    -fx-font-size: 8pt;
+    -fx-font-family: "Segoe UI";
+    -fx-fill: White;
+    -fx-opacity: 0.8;
+}
+
+.addInventoryText{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #f9f5eb;
+    -fx-background-color: grey;
+    -fx-background-radius: 5px;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 25px;
+    -fx-alignment: center;
+}
+
+.addInventoryTextRight{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #f9f5eb;
+    -fx-background-color: grey;
+    -fx-background-radius: 5px;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 25px;
+    -fx-alignment: center;
+}
+
+.addRecipientText{
+    -fx-font-size: 9pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: grey;
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-pref-width: 85px;
+    -fx-pref-height: 25px;
+    -fx-alignment: center;
+}
+
+.menuBar{
+    -fx-background-color: #f9f5eb;
+    -fx-border-color: grey;
+    -fx-font-weight: bold;
+}
+
+.sideBar{
+    -fx-background-image: url("../images/sidebar.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover; /* scale to fit pane */
+}
+
+.distributionText{
+    -fx-font-size: 9pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: grey;
+    -fx-background-color: #f9f5eb;
+    -fx-background-radius: 10px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 25px;
+    -fx-alignment: center;
+}
+
+.modeText{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #f9f5eb;
+    -fx-cursor: finger;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+.tableColor{
+    -fx-background-color: lightgrey;
+}
+
+.inventoryTableColor{
+    -fx-background-color: #DDE6ED;
+}
+
+.recipientTableColor{
+    -fx-background-color: #9DB2BF;
+}
+
+.distributionReqTableColor{
+    -fx-background-color: #526D82;
+}
+
+.distributionTableColor{
+    -fx-background-color: #648DB3;
+}
+
+/*--- Buttons ---*/
+.distributionButton{
+    -fx-font-size: 9pt;
+    -fx-text-fill: #f9f5eb;
+    -fx-background-color: grey;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-cursor: finger;
+}
+
+.borderButton{
+    -fx-background-color: transparent;
+    -fx-text-fill: #f9f5eb;
+    -fx-font-weight: bold;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+}
+
+.borderButton:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #f9f5eb;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.mainPageButton {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #f9f5eb;
+    -fx-background-color: #065935;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: finger;
+    -fx-min-width: 200px;
+}
+
+.mainPageButton:hover{
+    -fx-text-fill: #065935;
+    -fx-background-color: #f9f5eb;
+    -fx-border-color: #065935;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.sideBarButton{
+    -fx-font-size: 8pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: grey;
+    -fx-background-color: #f9f5eb;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-min-width: 120px;
+    -fx-min-height: 30px;
+    -fx-cursor: finger;
+}
+
+.sideBarButton:hover{
+    -fx-text-fill: white;
+    -fx-background-color: grey;
+    -fx-border-color: #f9f5eb;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.dashboardButton {
+    -fx-font-size: 9pt;
+    -fx-text-fill:green;
+    -fx-background-color: white;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-cursor: finger;
+}
+
+.dashboardButton:hover{
+    -fx-text-fill: black;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.noBackgroundButton{
+    -fx-background-color: transparent;
+    -fx-text-fill: #0d6efd;
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-cursor: finger;
+    -fx-font-weight: bold;
+}
+
+.noBackgroundButton:hover{
+    -fx-text-fill: white;
+    -fx-border-color: #0d6efd;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+}
+
+.menuButton {
+    -fx-font-size: 9pt;
+    -fx-text-fill:#0d6efd;
+    -fx-background-color: white;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-cursor: finger;
+}
+
+.menuButton:hover{
+    -fx-text-fill: black;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+#loginButton {
+    -fx-font-size: 10pt;
+    -fx-text-fill: #f9f5eb;
+    -fx-background-color: #0d6efd;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: finger;
+    -fx-font-weight: bold;
+    -fx-min-width: 350px;
+}
+
+.loginPageButton {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: #f9f5eb;
+    -fx-background-color: #8a7a6d;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: finger;
+    -fx-min-width: 200px;
+    -fx-font-weight: bold;
+}
+
+.loginPageButton:hover{
+    -fx-text-fill: #065935;
+    -fx-background-color: #f9f5eb;
+    -fx-border-color: #065935;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/*--- Backgrounds ---*/
+#aboutBackground{
+    -fx-background-image: url("../images/AboutPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#mainPage {
+    -fx-background-image: url("../images/MainPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#loginPage {
+    -fx-background-image: url("../images/LoginPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#distributionBackground{
+    -fx-background-image: url("../images/DistributionPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#distributionRecordBackground{
+    -fx-background-image: url("../images/DistributionRecordPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#dataInsightBackground{
+    -fx-background-image: url("../images/DataInsightPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#loginPageBackground{
+    -fx-background-image: url("../images/LoginPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#addRecipientBackground{
+    -fx-background-image: url("../images/AddRecipientPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#addInventoryBackground{
+    -fx-background-image: url("../images/AddInventoryPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#signUpPageBackground{
+    -fx-background-image: url("../images/SignUpPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#inventoryBackground{
+    -fx-background-image: url("../images/InventoryPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}
+
+#recipientBackground{
+    -fx-background-image: url("../images/RecipientPage.png"); /* relative to resources folder */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%; /* stretch to fill both width and height */
+}

@@ -1,0 +1,14 @@
+P12,1,John,Cup Noodles,Packaged Items,3,2025-08-18,true,,
+TJ8,2,John,Food Tupperwares,Other Items,6,2025-08-18,true,,
+PR3,3,Sam,Apples,Perishable Items,6,2025-08-18,true,,
+VG45,4,Alice,Vitamin Gummies,Supplement Items,4,2025-08-18,true,,
+P34,5,Bob,Rice,Packaged Items,10,2025-08-19,true,,
+FR12,6,Clara,Carrots,Perishable Items,8,2025-08-19,true,,
+TJ15,7,David,Food Tupperwares,Other Items,5,2025-08-19,true,,
+VG50,8,Eva,Protein Bars,Supplement Items,7,2025-08-20,true,,
+P18,9,Frank,Cup Noodles,Packaged Items,12,2025-08-20,true,,
+PR8,10,Grace,Apples,Perishable Items,3,2025-08-21,true,,
+TJ8,11,Bob,Food Tupperwares,Other Items,5,2025-08-21,true,,
+TJ8,12,Bob,Food Tupperwares,Other Items,10,2025-08-25,false,ClaraC,0123987654
+TJ12,13,Sam,Plastic Plates,Other Items,12,2025-08-25,false,User 221,01234566789
+TJ8,12,Grace,Food Tupperwares,Other Items,5,2025-09-30,true,User 243,0123456789

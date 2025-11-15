@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="750.0" styleClass="backgroundColor" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="equalbite.view.RootLayoutController">
+   <top>
+      <MenuBar styleClass="menuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu text="_File">
+            <items>
+              <MenuItem onAction="#handleClose" text="_Close">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="X" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+            </items>
+               <accelerator>
+                  <KeyCodeCombination alt="UP" code="F" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+               </accelerator>
+          </Menu>
+          <Menu text="_Edit">
+            <items>
+              <MenuItem onAction="#handleLogin" text="_Login Page" />
+            </items>
+               <accelerator>
+                  <KeyCodeCombination alt="UP" code="E" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+               </accelerator>
+          </Menu>
+          <Menu text="_Help">
+            <items>
+                <MenuItem onAction="#handleAbout" text="_About">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="A" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+            </items>
+               <accelerator>
+                  <KeyCodeCombination alt="UP" code="H" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+               </accelerator>
+          </Menu>
+            <Menu text="_Start">
+               <items>
+                  <MenuItem onAction="#handleStartPage" text="_Start Page" />
+               </items>
+               <accelerator>
+                  <KeyCodeCombination alt="UP" code="H" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+               </accelerator>
+            </Menu>
+            <Menu text="_Login">
+               <items>
+                  <MenuItem onAction="#handleLogin" text="_Login Page" />
+               </items>
+               <accelerator>
+                  <KeyCodeCombination alt="UP" code="H" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+               </accelerator>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
